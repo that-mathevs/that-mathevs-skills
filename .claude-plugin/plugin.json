@@ -1,0 +1,21 @@
+{
+  "name": "that-mathevs-skills",
+  "version": "0.1.0",
+  "description": "Skills for disciplined engineering with an agent: behaviour-driven development, and more as they earn their place.",
+  "author": {
+    "name": "Matthew Ernewein",
+    "url": "https://github.com/that-mathevs"
+  },
+  "repository": "https://github.com/that-mathevs/that-mathevs-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "engineering",
+    "bdd",
+    "testing",
+    "specifications"
+  ],
+  "skills": [
+    "./skills/bdd"
+  ]
+}

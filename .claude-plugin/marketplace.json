@@ -1,0 +1,23 @@
+{
+  "name": "that-mathevs",
+  "owner": {
+    "name": "Matthew Ernewein",
+    "url": "https://github.com/that-mathevs"
+  },
+  "description": "Matthew Ernewein's agent skills for Claude Code, as an installable plugin.",
+  "plugins": [
+    {
+      "name": "that-mathevs-skills",
+      "source": "./",
+      "description": "Skills for disciplined engineering with an agent: behaviour-driven development, and more as they earn their place.",
+      "category": "engineering",
+      "keywords": [
+        "skills",
+        "engineering",
+        "bdd",
+        "testing",
+        "specifications"
+      ]
+    }
+  ]
+}
