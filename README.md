@@ -15,7 +15,16 @@ Restart Claude Code and the skills are available. Check what landed:
 claude plugin details that-mathevs-skills
 ```
 
-To update later, `claude plugin marketplace update that-mathevs`. To remove, `claude plugin uninstall that-mathevs-skills`.
+To update later, refresh the marketplace, then update the plugin, and restart Claude Code:
+
+```sh
+claude plugin marketplace update that-mathevs
+claude plugin update that-mathevs-skills
+```
+
+The first command only fetches the new listing. The second installs the new version.
+
+To remove, `claude plugin uninstall that-mathevs-skills`.
 
 ### One skill only
 
